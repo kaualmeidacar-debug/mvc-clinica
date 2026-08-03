@@ -2,9 +2,9 @@
 
 $pagValidas = [
 
-    "Medico" => __DIR__ . "/views/medico.php",
-    "Cliente" => __DIR__ . "/views/cliente.php",
-    "Agenda" => __DIR__ . "/views/agenda.php",
+    "medico" => __DIR__ . "/views/medico.php",
+    "cliente" => __DIR__ . "/views/cliente.php",
+    "agenda" => __DIR__ . "/views/agenda.php",
 ];
 
 $page = $_GET["page"] ?? "Medico";

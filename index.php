@@ -34,7 +34,7 @@
                 <nav class="nav">
 
                     <a
-                        href="index.php?page=produtos"
+                        href="index.php?page=medico"
                         class="nav-link text-white">
                         Médico
                     </a>
