@@ -40,9 +40,9 @@
                     </a>
 
                     <a
-                        href="index.php?page=clientes"
+                        href="index.php?page=cliente"
                         class="nav-link text-white">
-                        Clientes
+                        Cliente
                     </a>
 
                     <a

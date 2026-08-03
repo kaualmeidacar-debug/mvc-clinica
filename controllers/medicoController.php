@@ -18,11 +18,12 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 // Recebe os dados enviados pelo formulário
 $nome = trim($_POST['nome']);
 $cpf = trim($_POST['cpf']);
+$crm = trim($_POST['crm']);
 $email = trim($_POST['email']);
 $telefone = trim($_POST['telefone']);
 
 // Valida os campos obrigatórios 
-if ($nome === "" || $cpf === "" || $email === "" || $telefone === "") {
+if ($nome === "" || $cpf === "" || $crm === "" || $email === "" || $telefone === "") {
     http_response_code(400);
 
     echo json_encode([
@@ -40,11 +41,13 @@ http_response_code(200);
 
 echo json_encode([
     "sucesso" => true,
-    "mensagem" => "Cliente cadastrado com sucesso!",
-    "cliente" => [
+    "mensagem" => "Médico cadastrado com sucesso!",
+    "medico" => [
         "nome" => $nome,
         "cpf" => $cpf,
+        "crm" => $crm,
         "email" => $email,
         "telefone" => $telefone,
     ]
 ]);
+?>

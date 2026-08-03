@@ -20,6 +20,12 @@
                 <input type="text" id="cpf" name="cpf" class="form-control">
             </div>
 
+            <!-- CRM -->
+            <div class="mb-3">
+                <label for="crm"> CRM </label>
+                <input type="text" id="crm" name="crm" class="form-control">
+            </div>
+
             <!-- e-mail -->
             <div class="mb-3">
                 <label for="email"> E-mail </label>
