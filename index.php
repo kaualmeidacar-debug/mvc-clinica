@@ -46,7 +46,7 @@
                     </a>
 
                     <a
-                        href="index.php?page=funcionarios"
+                        href="index.php?page=agenda"
                         class="nav-link text-white">
                         Agenda
                     </a>
