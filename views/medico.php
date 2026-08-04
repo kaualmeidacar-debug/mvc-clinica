@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="assets/css/medico.css">
 
 <section>
-    <div class="col-md-6 mx-auto">
+    <div class="col-md-6 mx-auto mt-5">
         <h2> Cadastro de Médicos </h2>
 
         <!-- Formulário -->

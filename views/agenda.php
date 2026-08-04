@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="assets/css/agenda.css">
 
 <section>
-    <div class="col-md-6 mx-auto ">
+    <div class="col-md-6 mx-auto mt-5">
         <h2> Agenda de consultas </h2>
 
         <!-- Formulário -->
@@ -22,13 +22,13 @@
 
             <!-- DATA -->
             <div class="mb-3">
-                <label for="data"> DATA </label>
+                <label for="data"> Data </label>
                 <input type="text" id="data" name="data" class="form-control">
             </div>
 
             <!-- HORARIO -->
             <div class="mb-3">
-                <label for="horario"> HORÁRIO </label>
+                <label for="horario"> Horário </label>
                 <input type="text" id="horario" name="horario" class="form-control">
             </div>
 
